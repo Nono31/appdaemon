@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM arm32v7/python:3.6
 
 # Environment vars we can configure against
 # But these are optional, so we won't define them now
